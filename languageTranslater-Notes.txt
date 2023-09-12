@@ -1,0 +1,13 @@
+libs install
+pip install pipwin
+pipwin install pyaudio
+
+Error 305 and 263 The specified device is not open or is not recognized by MCI.
+pip uninstall playsound
+pip install playsound==1.2.2
+
+r.adjust_for_ambient_noise(source)
+The solution is to decrease this threshold, or call recognizer_instance.adjust_for_ambient_noise(source, duration = 1) beforehand, which will set the threshold to a good value automatically.
+
+pip3 uninstall googletrans
+pip3 install googletrans==3.1.0a0
